@@ -1,6 +1,6 @@
 @Angular.Server_HostAddress = https://localhost:7070
 
-GET {{Angular.Server_HostAddress}}/User/GetAll
+GET {{Angular.Server_HostAddress}}/api/User/GetAll
 Accept: application/json
 
 ###
