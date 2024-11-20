@@ -1,6 +1,14 @@
-header
+<header style="margin-top:-18px">
+    <mat-divider style="border-color:lightblue;"></mat-divider>
+    <mat-toolbar style="border-color:lightblue;">
+        <button mat-button class="toolbar-button" [routerLink]="'/'" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">خانه</button>
+        <button mat-button class="toolbar-button" [routerLink]="'/register'" routerLinkActive="active-link">ثبت نام</button>
+    </mat-toolbar>
+    <mat-divider style="border-color:lightblue;"></mat-divider>
+</header>
+
 <main class="main">
-  <div class="content">
-    <router-outlet />
-  </div>
+    <div class="content">
+        <router-outlet />
+    </div>
 </main>
